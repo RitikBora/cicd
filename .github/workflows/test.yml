@@ -28,7 +28,7 @@ jobs:
     - name: Copy .env.example to .env
       run: cp ./.env.example ./.env
 
-      - name: Set execute permissions for scripts
+    - name: Set execute permissions for scripts
       run: chmod +x ./scripts/*
 
     - name: Run integration script
